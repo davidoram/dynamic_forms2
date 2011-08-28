@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+name:
+  type: StringQuestion
+  question: What is your name
+
+product:
+  type: StringQuestion
+  question: Describe your product
+
+age:
+  type: IntegerQuestion
+  question: How old are you

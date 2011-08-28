@@ -1,0 +1,19 @@
+serious_age:
+  project_schema: serious
+  question: age
+  position: 1
+
+serious_name:
+  project_schema: serious
+  question: name
+  position: 2
+
+serious_product:
+  project_schema: serious
+  question: product
+  position: 3
+
+crazy_product:
+  project_schema: crazy
+  question: product
+  position: 1

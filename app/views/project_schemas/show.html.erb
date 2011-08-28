@@ -1,0 +1,16 @@
+<% title "Project Schema" %>
+
+<p>
+  <strong>Name:</strong>
+  <%= @project_schema.name %>
+</p>
+<p>
+  <strong>Questions:</strong>
+  <%= @project_schema.questions %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_project_schema_path(@project_schema) %> |
+  <%= link_to "Destroy", @project_schema, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", project_schemas_path %>
+</p>

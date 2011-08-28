@@ -1,0 +1,7 @@
+mousetrap:
+  name: A better mousetrap
+  project_schema: serious
+
+tinfoilhat:
+  name: Tin foil hats
+  project_schema: crazy

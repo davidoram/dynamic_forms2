@@ -1,0 +1,19 @@
+<% title "Project Schemas" %>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Questions</th>
+  </tr>
+  <% for project_schema in @project_schemas %>
+    <tr>
+      <td><%= project_schema.name %></td>
+      <td><%= project_schema.questions %></td>
+      <td><%= link_to "Show", project_schema %></td>
+      <td><%= link_to "Edit", edit_project_schema_path(project_schema) %></td>
+      <td><%= link_to "Destroy", project_schema, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Project Schema", new_project_schema_path %></p>
